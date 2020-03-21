@@ -85,6 +85,149 @@
     // bookList.previousElementSibling.querySelector('p').innerHTML += '<br/> Too cool';
 */
 
+/*  PART 7
+
+    // var h2 = document.querySelector('#book-list h2');
+
+    // h2.addEventListener('click', e =>{
+    //     console.log(e.target);
+    //     console.log(e);
+    // });
+
+    // var btns = document.querySelectorAll('#book-list .delete');
+
+    // Array.from(btns).forEach(btn => {
+    //     btn.addEventListener('click', e => {
+    //         const li = e.target.parentElement;
+    //         li.parentNode.removeChild(li);
+    //     });
+    // });
+
+    // const link = document.querySelector('#page-banner a');
+    // link.addEventListener('click', e =>{
+    //     e.preventDefault();
+    //     console.log('navigation to ', e.target.textContent, 'was prevented');
+    // });
+*/
+
+/*  PART 8 (more efficient version of deleting part of part 7)
+
+    // const list = document.querySelector('#book-list ul');
+    // list.addEventListener('click', e => {
+    //     if(e.target.className == 'delete') {
+    //         const li = e.target.parentElement;
+    //         list.removeChild(li);
+    //     }
+    // });
+*/
+
+/*  PART 9
+    // console.log(document.forms);
+    // console.log(document.forms['add-book']);
+
+    // //add book-list
+    // const addForm = document.forms['add-book'];
+    // addForm.addEventListener('submit', e => {
+    //     e.preventDefault();
+    //     const value = addForm.querySelector('input[type="text"]').value;
+    //     console.log(value);
+    //     const li = document.createElement('li'); // create element
+    //     const bookName = document.createElement('span');
+    //     const deleteBtn = document.createElement('span');
+
+    //     //add classes
+    //     bookName.classList.add('name');
+    //     deleteBtn.classList.add('delete');
+
+    //     //add content
+    //     deleteBtn.textContent = 'delete';
+    //     bookName.textContent = value;
+
+    //     li.appendChild(bookName);
+    //     li.appendChild(deleteBtn);
+    //     const list = document.querySelector('#book-list ul');
+    //     list.appendChild(li);
+
+    //     // For Tesing how to add css externally
+    //     // var licolor = document.querySelector('li:last-child');
+    //     // licolor.style.color = "red";
+    //     // licolor.className = "test";
+
+    // });
+*/
+
+/* PART 13
+    // console.log(book.getAttribute('class')); // return name
+    // console.log(book.setAttribute('class', 'name-2'));
+    // console.log(book.hasAttribute('class')); // return true
+    // console.log(book.getAttribute('href')); // return false
+    // console.log(book.removeAttribute('class'));
+    // console.log(book.hasAttribute('class')); // return false
+*/
+
+/*  PART 14
+
+    // const list = document.querySelector('#book-list ul');
+
+    // const hideBox = document.querySelector('#hide');
+    // hideBox.addEventListener('change', e => {
+    //     if(hideBox.checked) {
+    //         list.style.display = "none";
+    //     } else {
+    //         list.style.display = "initial";
+    //     }
+    // });
+*/
+
+/* PART 15 creating a search filter
+
+    // const list = document.querySelector('#book-list ul');
+    // const searchBar = document.forms['search-books'].querySelector('input');
+    // searchBar.addEventListener('keyup', e => {
+    //     const term = e.target.value.toLowerCase();
+    //     const books = list.getElementsByTagName('li');
+    //     Array.from(books).forEach(book => {
+    //         const title = book.firstElementChild.textContent;
+    //         if(title.toLowerCase().indexOf(term) != -1) {
+    //             book.style.display = 'block';
+    //         } else {
+    //             book.style.display = 'none';
+    //         }
+    //     });
+    // });
+
+*/
+
+/*
+    // const tabs = document.querySelector('.tabs');
+    // const panels = document.querySelectorAll('.panel');
+    // tabs.addEventListener('click', (e) => {
+    //   if(e.target.tagName == 'LI'){
+    //     const targetPanel = document.querySelector(e.target.dataset.target);
+    //     Array.from(panels).forEach((panel) => {
+    //       if(panel == targetPanel){
+    //         panel.classList.add('active');
+    //       }else{
+    //         panel.classList.remove('active');
+    //       }
+    //     });
+    //   }
+    // });
+*/
+
+/*  DOM Content Load
+    // document.addEventListener('DOMContentLoaded', () => {
+    //     // all the DOM manupulation
+    // });
+*/
+
+
+
+
+
+
+
+
 
 
 
